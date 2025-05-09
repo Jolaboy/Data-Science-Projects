@@ -1,3 +1,4 @@
+install.packages("languageserver")
 rm(list = ls())
 
 car.prices.df <- read.csv("./datasets/CarPrice_Assignment.csv", header=TRUE)
